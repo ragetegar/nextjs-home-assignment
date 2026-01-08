@@ -9,18 +9,18 @@ export default function FilterTabs({ activeTab = 'best', onTabChange }: FilterTa
             <div className="bg-[#1a1a1a] rounded-full p-1 flex">
                 <button
                     onClick={() => onTabChange?.('best')}
-                    className={`px-4 py-1 rounded-full text-xs font-medium transition-all duration-300 ${activeTab === 'best'
-                            ? 'bg-[#4EDCD8] text-black shadow-sm'
-                            : 'text-gray-400 hover:text-white'
+                    className={`px-4 py-1 rounded-full text-xs font-medium box-shadow transition-all duration-300 ${activeTab === 'best'
+                        ? 'bg-[#4EDCD8] text-black shadow-sm'
+                        : 'text-gray-400 hover:text-white'
                         }`}
                 >
                     best
                 </button>
                 <button
                     onClick={() => onTabChange?.('new')}
-                    className={`px-4 py-1 rounded-full text-xs font-medium transition-all duration-300 ${activeTab === 'new'
-                            ? 'bg-[#4EDCD8] text-black shadow-sm'
-                            : 'text-gray-400 hover:text-white'
+                    className={`px-4 py-1 rounded-full text-xs font-medium transition-all box-shadow duration-300 ${activeTab === 'new'
+                        ? 'bg-[#4EDCD8] text-black shadow-sm'
+                        : 'text-gray-400 hover:text-white'
                         }`}
                 >
                     new
