@@ -14,7 +14,7 @@ interface QuestionCardProps {
 export default function QuestionCard({ question, variant = 'default' }: QuestionCardProps) {
     if (variant === 'hero') {
         return (
-            <div className="rounded-3xl p-6 box-shadow mb-4 bg-[#0f0f0f]">
+            <div className="rounded-3xl p-6 box-shadow mb-4 bg-[#000000]">
                 <div className="flex items-center justify-between mb-4">
                     <span className="text-sm text-gray-500 font-medium">Question of the Day</span>
                     <span className="text-sm text-gray-500">{question.date}</span>
