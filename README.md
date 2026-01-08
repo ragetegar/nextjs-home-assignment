@@ -1,5 +1,5 @@
-# Technical Assessment for Boo
-
+# Technical Assignment for Boo
+08 Jan 2026
 
 
 ## How to Run
@@ -19,13 +19,27 @@ npm run start
 
 # Tech Stack
 i'm using Next.js 16 with React 18
-mock data from api/mockData.ts  
+mock data from api/mockData.ts 
+IDE: VSCode + Copilot 
 
 ## not done yet
 - infinite scroll
-- search functionality
-- animate hamburger menu    
+- White themes
 - mobile responsive
+- search functionality and layout
+- animate hamburger menu    
 - fonts
 - bug hover scale cards
-- some icon
+- some icon and loading animated
+- hide/show animate banner
+- best/new tab functionality and layout
+
+
+start time : around 23:00 GMT+7 (Jakarta Time)
+end time : around 2:00 GMT+7 (Jakarta Time)
+
+![Screenshot](screenshot-time.jpg)
+
+
+Tegar Ari pranata
+ragetegar.com
